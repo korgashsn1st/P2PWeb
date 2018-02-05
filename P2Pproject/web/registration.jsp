@@ -1,6 +1,6 @@
 <%-- 
     Document   : registration
-    Created on : 2018年1月14日, 上午12:37:02
+    Created on : 2018�~1��14��, �W��12:37:02
     Author     : cheungtimfat
 --%>
 
@@ -15,14 +15,18 @@
     
     <header>
         <div id="header">
-            <div id="headerlogo"></div>
-            <div id="headerloginform">
-                <form action="loginController" method="post">
-                    Username:<input type="text" name="username" placeholder="Username" required="" />
-                    Password:<input type="password" name="password" placeholder="Password" required="" />
-                    <input id="button1" type="submit" name="submit" value="Log in"/>
-                </form>
-            </div>
+			<div id="headerbox">
+            	<div id="headerlogo">
+					<img src="logo.png" width="100" height="100"/>
+				</div>
+            	<div id="headerloginform">
+                	<form action="loginController" method="post">
+                    	Username:<input type="text" name="username" placeholder="Username" required="" />
+                    	Password:<input type="password" name="password" placeholder="Password" required="" />
+                    	<input id="button1" type="submit" name="submit" value="Log in"/>
+                	</form>
+            	</div>
+			</div>
         </div>
     </header>
 
