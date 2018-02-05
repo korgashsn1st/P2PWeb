@@ -13,12 +13,13 @@
 
     <header>
         <div id="header">
-            <div id="headerlogo"></div>
+            <div id="headerlogo">
+				<img src="logo.png" width="90" height="90"/>
+                  </div>
         </div>
     </header>
 
     <body>
-
         <div id="form">
             <h1>Registration successful!!</h1>
             Username: <%= User.getUserName()%><p/>
